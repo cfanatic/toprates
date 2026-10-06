@@ -483,7 +483,7 @@ class Indicator extends PanelMenu.Button {
             if (change)
                 text += ` ${change}`;
         }
-        return [text, `toprates-label ${this._changeStyle(percent)}`,
+        return [text, 'toprates-label',
             entry.stale ? Widgets.STALE_OPACITY : 255];
     }
 
