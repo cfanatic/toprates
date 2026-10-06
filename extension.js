@@ -575,7 +575,7 @@ class Indicator extends PanelMenu.Button {
             if (delta) {
                 valueBox.add_child(new St.Label({
                     text: delta,
-                    style_class: `toprates-change ${this._changeStyle(percent)}`,
+                    style_class: 'toprates-change',
                 }));
             }
 
